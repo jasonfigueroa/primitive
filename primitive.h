@@ -13,9 +13,10 @@ allocInt();
 Object
 allocIntWith(int);
 
-void printInt(FILE *, Object);
+void
+printInt(FILE *, Object);
 
 void
-    releasePrimitive(Object);
+releasePrimitive(Object);
 
 #endif // PRIMITIVE_H_INCLUDED

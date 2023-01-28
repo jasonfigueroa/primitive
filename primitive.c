@@ -15,12 +15,14 @@ allocIntWith(int e)
 	return p;
 }
 
-void releasePrimitive(Object obj)
+void
+releasePrimitive(Object obj)
 {
 	free(obj);
 }
 
-void printInt(FILE *out, Object p)
+void
+printInt(FILE *out, Object p)
 {
 	if (!out)
 	{
