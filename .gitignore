@@ -2,3 +2,6 @@
 *.depend
 bin/
 obj/
+output
+lib
+include
