@@ -1,6 +1,6 @@
 LIBDIR ?= ./lib
 INCLUDEDIR ?= ./include
-OUTPUTDIR ?= ./output
+OUTPUTDIR ?= ./build
 
 default:
 	make primitive.o
